@@ -2,11 +2,11 @@
     "name": "node-keyboard-watcher",
     "version": "1.0.3",
     "author": {
-      "name": "Guus van der Meer"
+      "name": "Coust"
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/OhMyGuus/node-keyboard-watcher.git"
+      "url": "https://github.com/EdisonP-07/node-keyboard-watcher.git"
     },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -29,7 +29,7 @@
     "prebuilds"
   ],
   "devDependencies": {
-    "@types/node": "12.x.x",
+    "@types/node": "^16.20.2",
     "prebuildify": "4.x.x",
     "ts-node": "9.x.x",
     "typescript": "4.x.x"
