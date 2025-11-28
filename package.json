@@ -1,15 +1,15 @@
-  {
-    "name": "node-keyboard-watcher",
-    "version": "1.0.3",
-    "author": {
-      "name": "Coust"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/EdisonP-07/node-keyboard-watcher.git"
-    },
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
+{
+  "name": "node-keyboard-watcher",
+  "version": "1.0.3",
+  "author": {
+    "name": "Coust"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EdisonP-07/node-keyboard-watcher.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "private": true,
   "gypfile": true,
   "scripts": {
@@ -29,18 +29,15 @@
     "prebuilds"
   ],
   "devDependencies": {
-    "@types/node": "^16.20.2",
-    "prebuildify": "4.x.x",
-    "ts-node": "9.x.x",
-    "typescript": "4.x.x"
+    "prebuildify": "^4.0.0",
+    "ts-node": "9.1.1",
+    "typescript": "4.9.5",          
+    "@types/node": "20.5.1"       
   },
   "dependencies": {
-    "bindings": "*",
-    "node-addon-api": "*",
-    "@types/throttle-debounce": "2.x.x",
-    "throttle-debounce": "2.x.x",
-    "ts-node": "9.x.x",
-    "typescript": "4.x.x"
+    "@types/throttle-debounce": "2.1.0",  
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.2.1",
+    "throttle-debounce": "2.1.0"
   }
-  
 }
